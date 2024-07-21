@@ -1,0 +1,9 @@
+export default function Footer() {
+  return (
+    <div className="sm:fixed text-xs sm:text-sm bottom-0 w-screen font-satoshithin px-4 mb-2 flex justify-between">
+      <div>Alba Preysing</div>
+      <div>London, England</div>
+      <div>@albaelena</div>
+    </div>
+  );
+}
