@@ -3,7 +3,7 @@ import React from "react";
 
 export default function ImageProject({ src }) {
   return (
-    <div className="h-[50vw] max-h-[400px] max-w-[250px] w-[35vw] relative">
+    <div className="sm:h-[50vw] h-[65vh] sm:max-h-[400px] sm:max-w-[250px] sm:w-[35vw] relative">
       <Image alt="image" src={src} fill className="object-cover" />
     </div>
   );
