@@ -43,7 +43,7 @@ export default function page() {
           </a>
 
           <br />
-          <div>Instagram: @albaelena</div>
+          <div>Instagram: @albaaelena</div>
         </div>
       </div>
     </div>
