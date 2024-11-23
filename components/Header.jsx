@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div className="p-3 sm:fixed top-0 w-full z-10 bg-white flex justify-between">
+    <div className="py-3 px-4 sm:fixed top-0 w-full z-10 bg-white flex justify-between">
       <Link href={"/"} className="font-recia">
         Alba Preysing
       </Link>

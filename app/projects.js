@@ -1,6 +1,6 @@
 const projects = [
   {
-    src: "/covers/teteatete-cover.jpg",
+    src: "/covers/1.webp",
     name: "Tête-à-Tête Dining",
     link: "teteatete",
   },

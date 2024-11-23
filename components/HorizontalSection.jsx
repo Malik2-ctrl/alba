@@ -12,7 +12,7 @@ export default function HorizontalSection({ projects }) {
     gsap.registerPlugin(ScrollTrigger);
 
     let galleryWidth = galleryRef.current.offsetWidth;
-    let amountToScroll = galleryWidth - window.innerWidth;
+    let amountToScroll = galleryWidth - window.innerWidth + 25;
 
     gsap.to(galleryRef.current, {
       x: -amountToScroll,

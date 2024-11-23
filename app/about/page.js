@@ -4,7 +4,7 @@ export default function page() {
   return (
     <div className="h-full font-satoshi p-4">
       <div className="text-3xl mt-0 sm:mt-8">
-        My name is Alba, I am a driven Producer specifying in end-to-end project
+        My name is Alba, I am a driven Producer and Supper Club founder specifying in end-to-end project
         execution, shoot production, and digital content creation. My creative
         goal is to craft memorable cross-platform content that captivates
         diverse audiences, engages global consumers, and maximises client
@@ -20,6 +20,8 @@ export default function page() {
           <div>Shoot Production</div>
           <div>Social Strategy</div>
           <div>Content Creation</div>
+          <div>Private Catering</div>
+          <div>Supper Club</div>
         </div>
       </div>
       <div className="mt-12 uppercase  flex text-sm sm:text-lg">
