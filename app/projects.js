@@ -1,12 +1,24 @@
 const projects = [
-  { src: "/covers/jeporte-cover.jpg", name: "Je Porte Celia", link: "jeportecelia" },
-  { src: "/covers/teteatete-cover.jpg", name: "Tête-à-Tête Dining", link: "teteatete" },
+  {
+    src: "/covers/teteatete-cover.jpg",
+    name: "Tête-à-Tête Dining",
+    link: "teteatete",
+  },
+  {
+    src: "/covers/jeporte-cover.jpg",
+    name: "Je Porte Celia",
+    link: "jeportecelia",
+  },
   {
     src: "/covers/1. Gospel Titelbild.jpeg",
     name: "Peloton x Big Gospel Choir",
     link: "pelotonxbiggospel",
   },
-  { src: "/covers/COVER.jpg", name: "Personal Social Media", link: "albaaelena" },
+  {
+    src: "/covers/_MG_7831.webp",
+    name: "Personal Social Media",
+    link: "albaaelena",
+  },
   {
     src: "/covers/pelotonxsocialshoots.png",
     name: "Peloton Social Shoots",

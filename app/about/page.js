@@ -5,9 +5,10 @@ export default function page() {
     <div className="h-full font-satoshi p-4">
       <div className="text-3xl mt-0 sm:mt-8">
         My name is Alba, I am a driven Producer specifying in end-to-end project
-        execution, shoot production, and digital content creation. My creative goal is to
-        craft memorable cross-platform content that captivates diverse audiences, engages
-        global consumers, and maximises client engagement.
+        execution, shoot production, and digital content creation. My creative
+        goal is to craft memorable cross-platform content that captivates
+        diverse audiences, engages global consumers, and maximises client
+        engagement.
       </div>
       <div className="mt-16 uppercase flex text-sm sm:text-lg">
         <p>Services</p>
@@ -31,6 +32,7 @@ export default function page() {
           <br />
           <a
             href="https://www.linkedin.com/in/alba-preysing/"
+            target="_blank"
             className="hover:opacity-60"
           >
             LinkedIn
@@ -38,12 +40,15 @@ export default function page() {
           <a
             href="https://the-dots.com/users/alba-preysing-1638332"
             className="hover:opacity-60"
+            target="_blank"
           >
             The Dots
           </a>
 
           <br />
-          <div>Instagram: @albaaelena</div>
+          <a target="_blank" href="https://www.instagram.com/albaaelena/">
+            Instagram: @albaaelena
+          </a>
         </div>
       </div>
     </div>
