@@ -1,6 +1,7 @@
 "use client";
 import ImageProject from "@/components/ImageProject";
 import InstaEmbed from "@/components/InstaEmbed";
+import TikEmbed from "@/components/TikEmbed";
 import Link from "next/link";
 export default function page() {
   return (
@@ -19,6 +20,7 @@ export default function page() {
       <InstaEmbed url={"https://www.instagram.com/reel/C8ccxrmiUXx/"} />
       <InstaEmbed url={"https://www.instagram.com/reel/DBrVxqMCNav/"} />
       <InstaEmbed url={"https://www.instagram.com/tete.a.tete.dining/"} />
+      <TikEmbed url="https://www.tiktok.com/@tete.a.tete.dining/video/7383644827826523424" />
       {/* <Link
         target="_blank"
         href={

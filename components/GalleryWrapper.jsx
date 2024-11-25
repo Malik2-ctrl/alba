@@ -3,7 +3,7 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useRef } from "react";
 import gsap from "gsap";
-const GalleryWrapper = ({ children }) => {
+const GalleryWrapper = ({ extraAmount = 0, children }) => {
   const galleryWrapperRef = useRef(null);
   const galleryRef = useRef(null);
 
@@ -11,7 +11,7 @@ const GalleryWrapper = ({ children }) => {
     gsap.registerPlugin(ScrollTrigger);
 
     let galleryWidth = galleryRef.current.offsetWidth;
-    let amountToScroll = galleryWidth - window.innerWidth;
+    let amountToScroll = galleryWidth - window.innerWidth + 25 + extraAmount;
 
     gsap.to(galleryRef.current, {
       x: -amountToScroll,
@@ -26,7 +26,7 @@ const GalleryWrapper = ({ children }) => {
   }, []);
 
   return (
-    <div className="overflow-x-hidden ">
+    <div className="overflow-x-hidden">
       <section ref={galleryWrapperRef} className="gallery-wrapper">
         <div
           ref={galleryRef}
