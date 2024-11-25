@@ -10,7 +10,7 @@ export default function TeteateteLayout({ children }) {
         <>
           <GalleryWrapper>{children}</GalleryWrapper>
           {size.width >= 724 && (
-            <div className="flex p-4 fixed bottom-12 bg-white w-full">
+            <div className="flex p-4 fixed pb-12 bottom-0 bg-white w-full">
               <div className="flex flex-col">
                 <h1 className="font-satoshi w-full whitespace-nowrap">
                   Peloton Social Shoots
